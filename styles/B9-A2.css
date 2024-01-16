@@ -4,6 +4,10 @@
 *{
     font-family: 'Mulish', sans-serif;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 
 
 nav{
@@ -90,8 +94,8 @@ background-position: center;
 
  
 .Wite-gray{
-    width: 676px;
-   color: #fff;
+width: 676px;
+color: #fff;
 padding-left: 90px;
 padding-top: 10px;
 position: absolute;
@@ -102,7 +106,7 @@ font-weight: 400;
 line-height: 26px; 
 }
 .transparent{
-    display: inline-flex;
+display: inline-flex;
 padding: 16px;
 align-items: flex-start;
 gap: 24px;
@@ -333,16 +337,18 @@ color: #131318;
 text-align: center;
 font-size: 40px;
 font-weight: 800;
+
+
 }
 .why-we{
     color: rgba(19, 19, 24, 0.70);
 
 text-align: center;
-font-family: Mulish;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 26px;
+margin-top: 20px;
 }
 
 
@@ -365,24 +371,23 @@ background: rgba(251, 181, 99, 0.05);
 .why-we-des-right{
 width: 573px;
 height: 284px;
-
 text-align: center;
-
 align-items: center;
 border-radius: 16px;
 border: 1px solid rgba(41, 206, 246, 0.20);
 background: rgba(41, 206, 246, 0.05);
-
-
 }
+
 .why-we-des-right-last{
-width: 573px;
-height: 284px;
-border-radius: 16px;
-border: 1px solid rgba(233, 68, 68, 0.20);
-background: rgba(233, 68, 68, 0.05);
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+ 
 margin-left: 650px;
 margin-top: 24px;
+text-align: center;
 align-items: center;
 
 }
@@ -482,63 +487,260 @@ line-height: 26px;
 
 
 
+/*For meaia ane query*/
 
-
-
-
-@media screen and (max-width:600px) {
-    header{
-       padding: 20px;
-       flex-direction: column;
-       width: auto;
-       height: auto;
-    }
-    .Tour-planing{
-        flex-direction: column;
-        font-size: 50%;
-        margin-left: 400px;
-    }
-    .image   
-    {
-        border-radius: 16px;
-        width: 335px;
-        height: 483px;
-     
-    }
-    nav,
-    .Banner{
-        flex-direction: column;
-        margin: 0;
-       
-    }
-
-    
-   
-transparent title {
-display: flex;
-width: 50%;
-padding: 44px 271px;
-flex-direction: column;
-align-items: flex-start;
-gap: 16px;
-border-radius: 8px;
-background: rgba(255, 255, 255, 0.30);
-     }
-
-.Tour-guid{
-flex-direction: column;
-}
-.row{
-    height: 20%;
-    width: 25%;
+@media screen and (max-width:576px) {
+ 
+  .Banner{
+    display: flex;
     flex-direction: column;
-    display: grid;
-    grid-template-columns: repeat( 1fr);
-    margin-right: 460px;
-    margin-top: 30px;
-    padding-right: 400px;
+    margin: 30px 20px 20px 20px;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    width: 40%px;
+    
+    height: 13%px;
+  }
+  .Tour-title{
+     width: 100%;
+     margin-right: 20px;
+  }
+  .tour-des{
+
+    margin-right: 20px;
+  }
+  .Tour-title{
+   margin: 20px auto;
+  }
+  .row{
+display: grid;
+grid-template-columns: repeat( 0,1fr);
+width: 335px;
+height: 176px;
+margin: 20px 30px;
+
+}
+.i-1{
+    width: 335px;
+height: 176px;
+}
+.Place-name-5{
+    color: #FFF;
+display: flex;
+flex-direction: column;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+.i-2{
+    width: 335px;
+    height: 176px;
+}
+
+.Place-name-eight{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.row-six{
+    width: 335px;
+    height: 176px;
+    margin-top: 250px;
+}
+.Place-name-six{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  
+}
+
+.row-seven{
+    width: 335px;
+    height: 176px;
+    margin-top: 220px;
+}
+.Place-name-seven{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 20px;
+}
+.row-nine{
+    width: 335px;
+    height: 176px;
+    margin-top: 20px;
+}
+.Place-name-nine{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 20px;
+}
+.row-ellaven{
+    width: 335px;
+    height: 176px;
+    margin-top: 20px;
+}
+.Place-name-ellaven{
+    position: absolute;
+    color:#FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;   
+}
+.row-ten{
+    width: 335px;
+    height: 176px;
+    margin-top: 60px;
+}
+.Place-name-ten{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+.sec-three,h2{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.sec-three{
+display: flex;
+flex-direction: column;
+color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 750px;
+}
+.two-box-des{
+    width: 271px;
+color: #5A5A5D;
+display: flex;
+
+flex-direction: column;
+font-family: Mulish;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+.two-box{
+margin: 10px 0px 10px ;
+display: flex;
+flex-direction: column;
+width: 335px;
+height: 289px;
+text-align: center;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+margin-top: 50px;
+}
+.why-we-des-right-last{
+    width: 335px;
+height: 289px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+margin-top: 150px;
+}
+.why-we-des-right-last,h3{
+    color: #131318;
+
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.last-box-des{
+    width: 271px;
+color: #5A5A5D;
+font-family: Mulish;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+margin: 50px 20px;
+
+}
+
+.why-we-des-right-last{
+   margin: 70px;
+   margin-left: 40px;
    
 }
+
+.form-sec{
+    width: 335px;
+  height: 353px;
+  margin-right: 150px;
+  gap: 40px;
+}
+main,.img-l{
+    margin-top: 30px;
+    margin-right: 400px;
+    width: 335px;
+height: 300px;
+}
+
+footer,.Agency-title{
+color: #FF5400;
+font-family: Mulish;
+font-size: 21.543px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.l-footer{
+
+}
+
+}
+
+
+  
+
 
 
  
